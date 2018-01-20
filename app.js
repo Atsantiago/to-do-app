@@ -33,7 +33,7 @@ function onReady() {
  }
 
  function removeItems() {
-   var list = document.getElementsByClassName("inputCheck")
+   let list = document.getElementsByClassName("inputCheck")
    for(var i = 0; i < list.length; i++){
     if(list[i].checked){
     toDoList.removeChild(list[i].parentNode);
